@@ -1,0 +1,19 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string userName;
+        string userSecondName;
+        string userAge;
+
+        Console.WriteLine("Как Вас зовут?");
+        userName = Console.ReadLine();
+        Console.WriteLine("Ваша фамилия?");
+        userSecondName = Console.ReadLine();
+        Console.WriteLine("Сколько Вам лет");
+        userAge = Console.ReadLine();
+        Console.WriteLine("Вас зовут {0} {1}, Вам {2} лет.", userName, userSecondName, userAge);
+    }
+}
